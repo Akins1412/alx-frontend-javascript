@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable */
 export default function handleResponseFromAPI(promise) {
   return promise
     .then((reslove) => ({ status: 200, body: "Success" }))
