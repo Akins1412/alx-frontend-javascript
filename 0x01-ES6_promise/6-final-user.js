@@ -1,7 +1,5 @@
 import signUpUser from "./4-user-promise.js";
 import uploadPhoto from "./5-photo-reject.js";
-/* eslint-disable no-unused-vars */
-/* eslint-disable */
 
 export default function handleProfileSignup(firstName, lastName, fileName) {
   let firstname = signUpUser(firstName, lastName);
