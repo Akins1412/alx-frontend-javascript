@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable */
-function getResponseFromAPI() {
+export default function getResponseFromAPI() {
   return new Promise((resolve) => {
     resolve("Success");
   });
