@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable */
 import Building from "./5-building";
 
 export default class SkyHighBuilding extends Building {
